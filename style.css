@@ -2475,3 +2475,17 @@ a {
     gap: 20px;
     margin-top: 32px;
 }
+
+
+/* CONTACT EMAIL BUTTON: keep the label readable */
+.contact-links a.btn-primary {
+    background: var(--sage);
+    color: var(--forest);
+    border-color: var(--sage);
+}
+
+.contact-links a.btn-primary:hover {
+    background: var(--warm-white);
+    color: var(--forest);
+    border-color: var(--warm-white);
+}
