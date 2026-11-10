@@ -605,3 +605,13 @@ a {
         text-align: center;
     }
 }
+
+
+/* Keep project resource links grouped and aligned. */
+.project-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 20px;
+}
