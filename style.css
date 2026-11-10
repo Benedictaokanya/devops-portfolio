@@ -469,7 +469,12 @@ a {
 }
 
 .contact-content .hero-actions {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 /* CONTACT BUTTON FIX */
